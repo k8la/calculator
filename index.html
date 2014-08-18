@@ -1,0 +1,112 @@
+<html>
+	
+	<head>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<script type="text/javascript"></script>
+		
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-weight: bold;
+			}
+			#calc {
+				height: 400px;
+				margin: 100px;
+				border-radius: 8px;
+				width: 350px;
+				background-color: black;
+				padding: 23px 21px;
+			}
+			.buttons {overflow: hidden;}
+			
+			.buttons span {
+				font-family: arial;
+				line-height: 60px;
+				margin: 0 7px 11px 0;
+				float: left;
+				border-radius: 3px;
+				height: 60px;
+				width: 70px;
+				color: #fff;
+				text-align: center;
+				box-shadow: 3px 3px blue;
+				background: -webkit-linear-gradient( darkblue, lightblue);
+			}
+
+			#symbols{
+				box-shadow: 3px 3px orange;
+				background: -webkit-linear-gradient(orange, #FAE41D)
+			}
+
+			.top .clearBtn {
+				float: right;
+			}
+
+			.top .lcd {
+				margin: 0 7px 11px 0;
+				height: 60px;
+				width: 220px;
+				background-color: rgba(135,206,235,.2);
+				box-shadow: inset 3px 3px grey;
+				color: white;
+				line-height: 60px;
+				font-family: arial;
+				text-align: right;
+				font-size: 28px;
+				padding: 3px 10px 0 0;
+				letter-spacing: 3px;
+				display: inline-block;
+
+			}
+
+			.clrBtn {
+				float: right;
+				font-family: arial;
+				line-height: 60px;
+				margin: 0 7px 11px 0;
+				border-radius: 3px;
+				height: 60px;
+				width: 70px;
+				color: #fff;
+				text-align: center;
+			}
+
+			
+		</style>
+	</head>
+
+	<div id='calc'>
+		
+		<div class='top'>
+			<div class='lcd'>3.4x24-2</div>
+			<span class='clrBtn' id='symbols'>C</span>
+		</div>
+		
+		<div class='buttons'>
+			<span>7</span>
+			<span>8</span>
+			<span>9</span>
+			<span id='symbols'>/</span>
+			<span>4</span>
+			<span>5</span>
+			<span>6</span>
+			<span id='symbols'>x</span>
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			<span id='symbols'>-</span>
+			<span>0</span>
+			<span id='symbols'>.</span>
+			<span id='symbols'>=</span>
+			<span id='symbols'>+</span>
+		</div>
+</html>
+
+
+
+
+
+
